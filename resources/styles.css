@@ -61,6 +61,11 @@ main {
 
 }
 
+@media screen and (max-height: 450px) {
+    #sidebar-navigation {padding-top: 15px;}
+    #sidebar-navigation a {font-size: 18px;}
+  }
+
 body nav li{
     box-sizing: border-box;
     display: list-item;
