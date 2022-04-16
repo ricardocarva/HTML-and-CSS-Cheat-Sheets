@@ -1,0 +1,52 @@
+/* Start of overriding text alignment*/
+h2{
+    text-align: center !important;
+    /* position: relative; */
+    padding-left: 0px;
+}
+
+article h3 {
+    text-align: center !important;
+
+}
+
+section {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* end of overriding text alignment*/
+
+#html-elements {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    text-align: center;
+} 
+
+table {
+    text-align: center;
+    /* The two margin elements below center the table on the screen */
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid purple;
+
+}
+
+th {
+    padding: 0 40px;   
+    background-color: plum;
+}
+
+.table-center {
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+}
+
+td {
+    border-top: 1px solid purple;
+    font-size: 15px;
+}
+
+.tag {
+    background-color: lightgoldenrodyellow;
+}
