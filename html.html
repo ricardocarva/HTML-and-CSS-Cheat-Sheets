@@ -13,159 +13,214 @@
     <header>
         <h1>HTML and CSS Cheat Sheets</h1>
     </header>
-    <nav>
+    <nav id="sidebar-navigation">
         <h2>Related Topics</h2>
         <ul>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="html.html">HTML</a></li>
             <li><a href="css.html">CSS</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>HTML Table</h2>
-        <br>
-        <article id="html-elements">
-            <h3>HTML Elements</h3>
+    <main id="content">      
+        <section>
+            <h2>HTML Table</h2>
             <br>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tag</th>
-                        <th class="table-center">Name</th>
-                        <th>Description</th>       
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tag">&lt;!DOCTYPE html&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>               
-                    <tr>
-                        <td class="tag">&lt;html lang="en"&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;head&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                  
-                    <tr>
-                        <td class="tag">&lt;link rel="" href=""&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;title&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;body&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;footer&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;nav&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;header&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;article&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;section&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;h1&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>                    
-                    <tr>
-                        <td class="tag">&lt;h2&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>       
-                    <tr>
-                        <td class="tag">&lt;h3&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;h4&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;h5&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;h6&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;p&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;a&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;table&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;thead&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;tr&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;th&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>    
-                    <tr>
-                        <td class="tag">&lt;tbody&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>  
-                    <tr>
-                        <td class="tag">&lt;td&gt;</td>
-                        <td class="table-center"></td>
-                        <td></td>       
-                    </tr>  
-         
-                </tbody>
-            </table>
-        </article>
+            <article id="html-elements">
+                <h3>Common HTML Elements</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th class="table-center">Name</th>
+                            <th>Description</th>       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                            <td class="table-center">DocType</td>
+                            <td>The Doctype Declaration must be the very first line of code in an HTML.</td>       
+                        </tr>               
+                        <tr>
+                            <td class="tag">&lt;html lang="en"&gt;</td>
+                            <td class="table-center">HTML</td>
+                            <td>The tag is the container for all other HTML elements (except for the DOCTYPE tag). Add lang to assist search engines and browsers</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;head&gt;</td>
+                            <td class="table-center">Head</td>
+                            <td>The tag is a container for metadata placed between the html and body tags.</td>       
+                        </tr>                  
+                        <tr>
+                            <td class="tag">&lt;link rel="" href=""&gt;</td>
+                            <td class="table-center">Link</td>
+                            <td>The tag links the document and an external resource like a CSS file.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;title&gt;</td>
+                            <td class="table-center">Title</td>
+                            <td>The Title defines the title of the document. It is shown in the browser's title bar or in the page's tab.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;body&gt;</td>
+                            <td class="table-center">Body</td>
+                            <td>The body tag defines the document's body.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;footer&gt;</td>
+                            <td class="table-center">Footer</td>
+                            <td>The tag defines a footer for a document or section.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;nav&gt;</td>
+                            <td class="table-center">Navigation</td>
+                            <td>The tag defines a set of navigation links.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;header&gt;</td>
+                            <td class="table-center">Header</td>
+                            <td>The container for introductory content or set of navigational links</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;article&gt;</td>
+                            <td class="table-center">Article</td>
+                            <td>The tag specifies independent, self-contained content.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;section&gt;</td>
+                            <td class="table-center">Section</td>
+                            <td>The tag defines a section in a document. Check below for <a href="#article-vs-section">more details</a>.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;h1&gt;-&lt;h6&gt;</td>
+                            <td class="table-center">Header 1 - Header 6</td>
+                            <td>The tags for different sizes of Headers. For Examples, see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">MDN</a>.</td>       
+                        </tr>                    
+                        <tr>
+                            <td class="tag">&lt;p&gt;</td>
+                            <td class="table-center">Paragraph</td>
+                            <td>The tag defines a paragraph.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;a&gt;</td>
+                            <td class="table-center">Anchor</td>
+                            <td>The tag defines a hyperlink, which is used to link from one page to another.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;table&gt;</td>
+                            <td class="table-center">Table</td>
+                            <td>The tag defines an HTML table.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;thead&gt;</td>
+                            <td class="table-center">Table Head</td>
+                            <td>The tag is used to group header content in an HTML table.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;tr&gt;</td>
+                            <td class="table-center">Table Row</td>
+                            <td>The tag defines a row in an HTML table.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;th&gt;</td>
+                            <td class="table-center">Table Header</td>
+                            <td>The tag defines a header cell in an HTML table.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;tbody&gt;</td>
+                            <td class="table-center">Table Body</td>
+                            <td>The tag is used to group the body content in an HTML table.</td>       
+                        </tr>  
+                        <tr>
+                            <td class="tag">&lt;td&gt;</td>
+                            <td class="table-center">Table Data</td>
+                            <td>The tag defines a standard data cell in an HTML table.</td>       
+                        </tr>  
+                        <tr>
+                            <td class="tag">&lt;image&gt;</td>
+                            <td class="table-center">Image</td>
+                            <td>The tag is used to embed an image in an HTML page.</td>       
+                        </tr>       
+                        <tr>
+                            <td class="tag">&lt;figcaption&gt;</td>
+                            <td class="table-center">Figure Caption</td>
+                            <td>The tag defines a caption for a figure element like an Image</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;audio&gt;</td>
+                            <td class="table-center">Audio</td>
+                            <td>The tag is used to embed sound content in a document, such as music or other audio streams.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;video&gt;</td>
+                            <td class="table-center">Video</td>
+                            <td>The tag is used to embed video content in a document, such as a movie clip or other video streams.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;input&gt;</td>
+                            <td class="table-center">Input</td>
+                            <td>The tag specifies an input field where the user can enter data. It is the most important form element. Check more <a href="https://www.w3schools.com/tags/tag_input.asp">here</a>.</td>       
+                        </tr>    
+                        <tr>
+                            <td class="tag">&lt;br&gt;</td>
+                            <td class="table-center">Break</td>
+                            <td>The tag inserts a single line break.</td>       
+                        </tr>                       
+                        <tr>
+                            <td class="tag">&lt;div&gt;</td>
+                            <td class="table-center">Division</td>
+                            <td>The tag defines a division or a section in an HTML document.</td>       
+                        </tr>                       
+                        <tr>
+                            <td class="tag">&lt;ul&gt;</td>
+                            <td class="table-center">Unordered list</td>
+                            <td>The tag defines an unordered (bulleted) list.</td>       
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;ol&gt;</td>
+                            <td class="table-center">Ordered list</td>
+                            <td>The tag defines an ordered list. An ordered list can be numerical or alphabetical.</td>       
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;li&gt;</td>
+                            <td class="table-center">List</td>
+                            <td>The tag is used to define each list item.</td>       
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;textarea&gt;</td>
+                            <td class="table-center">Text Area</td>
+                            <td>The tag defines a multi-line text input control.</td>       
+                        </tr>
+                        <tr>
+                            <td class="tag">&lt;button&gt;</td>
+                            <td class="table-center">Button</td>
+                            <td>The tag defines a clickable button.</td>       
+                        </tr>  
+                    </tbody>
+                </table>
+        
+            </article>
 
-    </section>
+            <article>
+                <br>
+                <br>
+                <h3 class="article-classes" id="article-vs-section">Section vs Article</Article></h3>
+                <ul>
+                    <span>
+                        <li>Section:</li>
+                        <p>This tag is used to split a page into sections like Introduction, Contact Information, Details, etc and each of these sections can be in a different &lt;section&gt; tag. The &lt;section&gt; tag is introduced to wrap-up the things in a particular section. The section tag divides the content into sections and subsections. The section tag is used when requirements of two headers or footers or any other section of documents needed. Section tag grouped the generic block of related content.</p> 
+                    </span>
+                    <span>
+                        <li>Article:</li>
+                        <p>This tag contains independent content that doesn’t require any other context. So the article tag can be placed inside the main content. But each of the articles will contain independent content within it. Like YouTube use to contain different kinds of videos on a single page, each video is independent or you can see the course page of GeeksforGeeks each course is independent, each course can have its own page.</p>
+                    </span>
+                    <p><strong>Note:</strong> Placing &lt;article&gt; tag inside of &lt;section&gt; tag is good practice, like section basically defines the types and the articles will contain the specific contents in that type of section.</p>
+                    <p>For more about this, visit <a href="https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/">GeeksForGeeks</a> and <a href="https://stackoverflow.com/questions/7549561/section-vs-article-html5#:~:text=Article%20and%20Section%20are%20both,an%20heading%20elements%20h2%2Dh6.">Stack Overflow</a>.</p>
+                </ul>
+                <p></p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
